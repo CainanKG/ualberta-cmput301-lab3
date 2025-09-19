@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Asked ChatGPT - "How do I fit both city and province string in xml file?"
+The below is ChatGPT modification of the content.xml to include both city name
+and province abbreviation in the list view, 2025-09-18
+-->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:padding="12dp"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <TextView
+        android:id="@+id/tvCityName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textStyle="bold"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/tvProvince"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="14sp" />
+</LinearLayout>
